@@ -10,18 +10,19 @@
 
 ## BRIEIFLY ABOUT MYSELF
 
+I have experience in creating automated systems. But  I don't have a lot of experience in programming.
 
 
-As an architect of automated systems (software systems) in a secure design with over 10 years’
-experience, I have worked within the manufacturing, software systems and automated systems
-protection information. I am highly qualified and skilled in building difficult systems processing
-information, protection information in automated systems.
+I have worked within the manufacturing, software systems and automated systems protection information more 5 years.
+
+
+My target - new knowledge. I like to create digital systems.  I want to become a full-stack developer.
 
 
 ## HARD SKILLS
 
 * Linux, Windows, Astra Linux(SE), Ubuntu;
-* Network Security, Protection of information. (SIEM, DLP, IRP), CISCO;
+* Network Security, Protection of information, (SIEM, DLP, IRP), CISCO;
 * VPN, HTTP/HTTPS, SSH, ALD, PKI, NFS/Samba;
 * Docker, yandex.cloud;
 * VirtualBox, hyper-v , QEMU/KVM, PROXMOX;
@@ -49,8 +50,6 @@ function multiply(a, b){
   return (a * b)
 }
 ```
-
-
 
 ## WORK EXPERIENCE
 
