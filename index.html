@@ -5,100 +5,204 @@
     <title>My CV</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <nav>
-    <a href="/about/">BRIEIFLY ABOUT MYSELF</a> |
-    <a href="/hard-skills/">HARD SKILLS</a> |
-    <a href="/soft-skils/">SOFT SKILLS </a> |
-    <a href="/code-exempel/">CODE EXAMPLE</a> |
-    <a href="/work-experienc/">WORK EXPERIENCE</a> |
-    <a href="/education/">EDUCATION</a> 
+   <nav>
+    <ul>
+        <li><a href="#my-background">BRIEIFLY ABOUT MYSELF</a></li>
+        <li><a href="#hard-skills">HARD SKILLS</a></li>
+        <li><a href="#soft-skills">SOFT SKILLS </a></li>
+        <li><a href="#code-example">CODE EXAMPLE</a></li>
+        <li><a href="#work-experience">EXPERIENCE</a></li>
+        <li><a href="#education">EDUCATION</a></li> 
+        <li><a href="#my-projects">PROJECTS</a></li> 
+        <li><a href="#languages">LANGUAGES</a></li> 
+    </ul>
   </nav>
-  <body>
-    <section>
-        <h1>BIG FOTO</h1>
-        <p>The World Wide Fund for Nature (WWF) is....</p>
+  <body>    
+    <section class="first-line">
+        <header>
+            <p>HELLO, I'M</p>
+            <a class="logo" href="#"><h1>Mikhail Nazarov</h1></a>
+            <p>Cybersecurity project manager & security engineer</p>
+        </header>
     </section>
-    <aside>
-        <h1>my foto</h1>
-        <p>The Epcot Center is a theme park in Disney World, Florida.</p>
-    </aside>
-    <section>
-        <h1>About</h1>
-        <h2>MY BACKGROUND</h2>
-        <p>I have experience in creating automated systems. But  I don't have a lot of experience in programming.</p>
-        <p>I have worked within the manufacturing, software systems and automated systems protection information more 5 years.</p>
-        <p>target - new knowledge. I like to create digital systems.  I want to become a full-stack developer.</p>
+    <section class="first-line">
+        <img src="/media/PL.jpeg" alt="Buzz Lightyear" />
+        <h2>Mikhail Nazarov</h2>
+        <h3>Security engineer</h3>
+        <h3>Cyber security developer</h3>
+        <h3>Cybersecurity project manager</h3>
+        <ul>
+            <li>mnazarov.it@gmail.com</li>
+            <li>+(996) 776 210 986</li>
+        </ul>
+        
+        <ul>
+            <li><a href="https://github.com/MCNazarov?tab=following"><img src="media/iconmonstr-github-3.svg" width="30" height="30" border="0" alt="link-github"></a></li>
+            <li><a href="https://www.linkedin.com/in/nazarov-mc/"><img src="media/icons8-linkedin-50.png" width="30" height="30" border="0" alt="link-github"></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100001537383693"><img src="media/icons8-facebook-50.png" width="30" height="30" border="0" alt="link-github"></a></li>
+        </ul>
+     </section>
+    <section class="second-line">
+        <p><a name="my-background"></a></p>
+        <h2>About</h2>
+        <h3>MY BACKGROUND</h3>
+        <p>I have experience in creating automated systems. But  I don't have a lot of experience in programming.
+        I have worked within the manufacturing, software systems and automated systems protection information more 5 years.
+        target - new knowledge. I like to create digital systems.  I want to become a full-stack developer.</p>
     </section>
-    <section>
-        <h1>HARD SKILLS</h1>
-        * Linux, Windows, Astra Linux(SE), Ubuntu;
-        * Network Security, Protection of information, (SIEM, DLP, IRP), CISCO;
-        * VPN, HTTP/HTTPS, SSH, ALD, PKI, NFS/Samba;
-        * Docker, yandex.cloud;
-        * VirtualBox, hyper-v , QEMU/KVM, PROXMOX;
-        * ELK;
-        * Redmine, Gitlab;
-        * BPMN, RESTAPI.
+    <section class="third-line">
+        <p><a name="hard-skills"></a></p>
+        <h2>HARD SKILLS</h2>
+        <ul>
+            <li>Linux, Windows, Astra Linux(SE), Ubuntu;</li>
+            <li>Network Security, Protection of information, (SIEM, DLP, IRP), CISCO;</li>
+            <li>VPN, HTTP/HTTPS, SSH, ALD, PKI, NFS/Samba;</li>
+            <li>Docker, yandex.cloud;</li>
+            <li>VirtualBox, hyper-v , QEMU/KVM, PROXMOX;</li>
+            <li>ELK;</li>
+            <li>Redmine, Gitlab;</li>
+            <li>BPMN, RESTAPI.</li>
+        </ul>
     </section>
-    <section>
-        <h1>SOFT SKILLS</h1>
-        * Enquiry and research skills;
-        * Teamwork;
-        * Leadership;
-        * Communication skills;
-        * Problem solving ability;
-        * Initiative;
-        * Can summarize key issues;
-        * Logical argument.
+    <section class="fourth-line">
+        <p><a name="soft-skills"></a></p>
+        <h2>SOFT SKILLS</h2>
+        <ul>
+            <li>Enquiry and research skills;</li>
+            <li>Teamwork;</li>
+            <li>Leadership;</li>
+            <li>Communication skills;</li>
+            <li>Problem solving ability;</li>
+            <li>Initiative;</li>
+            <li>Can summarize key issues;</li>
+            <li>Logical argument.</li>
+        </ul>
     </section>
-    <section>
+    <section class="fifth-line">
+        <p><a name="code-example"></a></p>
         <h1>CODE EXAMPLE</h1>
-        ```
-        function multiply(a, b){
-        return (a * b)
-        }
-        ```
+        <pre>
+            <code>
+                function multiply(a, b){
+                return (a * b)
+                }
+            </code>
+        </pre>
     </section>
-    <section>
-        <h1>WORK EXPERIENCE</h1>
-        * **Software development company**, _Saint Petersburg_, – Team leader - design engineer
-        03.2022 – 06.2023
-        + Design of information processing systems;
-        + Reverse engineering, deployment and testing of existing software solutions; 
-        + Development of secure client-server applications;
-        + Design of information and automated systems in a secure design;
-        + Building a CI/CD process;
-        + Conducting an analysis of the technical specifications of the project, determining the needs and requirements of the Customer;
-        + Experience in building highly loaded geographically distributed systems and understanding the problem of multi-threaded data systems and understanding the problem of multi-threaded data processing;
-        + Preparation of layouts and stands for demonstration to the Customer.
+    <section class="sixth-line">
+        <p><a name="work-experience"></a></p>
+        <h2>EXPERIENCE</h2>
+        <h3>WHERE I’VE WORKED</h3>
 
-        * **Institute of Telecommunications,** _Saint Petersburg_ – Head of Information Security Laboratory  
-        06.2019 – 01.2022
-        + Development of information security policies of the organization;
-        + Conducting an analysis of the technical specifications of the project, determining the needs and requirements of the Customer;
-        + Design of information and automated systems in a secure design;
-        + Development of testing methods, testing of information security facilities.
+        <h4>Software development company</h4>
+        <p>Saint Petersburg</p>
+        <p>Team leader - design engineer</p>
+        <p>03.2022 – 06.2023</p>
+        <ul>
+            <li>Design of information processing systems;</li>
+            <li>Reverse engineering, deployment and testing of existing software solutions;</li>
+            <li>Development of secure client-server applications;</li>
+            <li>Design of information and automated systems in a secure design;</li>
+            <li>Building a CI/CD process;</li>
+            <li>Conducting an analysis of the technical specifications of the project, determining the needs and requirements of the Customer;</li>
+            <li>Experience in building highly loaded geographically distributed systems and understanding the problem of multi-threaded data systems and understanding the problem of multi-threaded data processing;</li>
+            <li>Preparation of layouts and stands for demonstration to the Customer.</li>
+        </ul>
+        <h4>Institute of Telecommunications</h4> 
+        <p>Saint Petersburg</p>
+        <p>Head of Information Security Laboratory</p>  
+        <p>06.2019 – 01.2022</p>
+        <ul>
+            <li>Development of information security policies of the organization;</li>
+            <li>Conducting an analysis of the technical specifications of the project, determining the needs and requirements of the Customer;</li>
+            <li>Design of information and automated systems in a secure design;</li>
+            <li>Development of testing methods, testing of information security facilities.</li>
+        </ul>
+    </section>
+    <section class="seventh-line">
+        <p><a name="education"></a></p>
+        <h2>EDUCATION</h2>
+        <h3>WHAT I’VE LEARNED</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Yandex.Workshop,</td>
+                    <td>–</td>
+                    <td>Cloud Engineer Course</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>ANO DPO "Echelon Training Center"</td>
+                    <td>–</td>
+                    <td>Administration SIEM-systems (KOMRAD)</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>ANO DPO "Echelon Training Center"</td>
+                    <td>–</td>
+                    <td>Astra linux. Advanced Administration</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>ANO DPO "Echelon Training Center"</td>
+                    <td>–</td>
+                    <td>Astra linux. Special Course</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>Institute for Monitoring and Evaluation of Information Security</td>
+                    <td>–</td>
+                    <td>THREATS MODELING 2021: BUILD, EVALUATE, IMPLEMENT</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>PEI DPO "Training center "SpetsProekt"</td>
+                    <td>–</td>
+                    <td>Professional retraining, Technical information security limited access that does not contain GT information" 504 hours</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>ITMO University</td>
+                    <td>–</td>
+                    <td>Web site developer (PHP technologies)</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>Military Space Academy</td>
+                    <td>–</td>
+                    <td>Ph.D. Cyber Security</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>Military Space Academy</td>
+                    <td>–</td>
+                    <td>Computer software and automated systems</td>
+                    <td>2008</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
     <section>
-        <h1>EDUCATION</h1>
-        * Yandex.Workshop, – Cloud Engineer Course _2022_
-        * ANO DPO "Echelon Training Center" – Administration SIEM-systems (KOMRAD) _2022_
-        * PEI DPO "Evrika Training Center", – Astra linux. Advanced Administration _2021_
-        * PEI DPO "Evrika Training Center", – Astra linux. Special Course _2021_
-        * Institute for Monitoring and Evaluation of Information Security - THREATS MODELING 2021: BUILD, EVALUATE, IMPLEMENT _2021_
-        * PEI DPO "Training center "SpetsProekt", Saint Petersburg – Professional retraining, Technical information security limited access that does not contain GT information" 504 hours _2020_
-        * ITMO University, Saint Petersburg – Web site developer (PHP technologies) _09.2015 – 06.2016_ _2013-2016_
-        * Military Space Academy, Saint Petersburg – Computer software and automated systems (Ph.D. Cyber Security) _08.2003 – 06.2008_
+        <p><a name="my-projects"></a></p>
+        <h2>PROGECTS</h2>
+        <p><a href="https://mcnazarov.github.io/cssBayan/cssBayan/index.html">CSS Bayan</a></p>
     </section>
     <section>
-        <h1>LANGUAGES</h1>
-        * Russian - Native
-        * English - B1
+        <p><a name="languages"></a></p>
+        <h2>LANGUAGES</h2>
+        <ul>
+            <li>Russian - Native</li>
+            <li>English - B1</li>
+        </ul>
     </section>
     <footer>
-        <p>Posted by: Hege Refsnes</p>
-        <p>Contact information: <a href="mailto:someone@html5css.ru">
-        someone@html5css.ru</a>.</p>
+        <ul>
+            <li><a href="https://rs.school/js"><img src="media/rs_school_js.svg" height="20" alt="logo-rs_school."></a></li>
+            <li><a href="https://github.com/MCNazarov?tab=following"><img src="media/iconmonstr-github-3.svg" width="30" height="30" border="0" alt="link-github"></a></li>
+            <li><a href="https://www.linkedin.com/in/nazarov-mc/"><img src="media/icons8-linkedin-50.png" width="30" height="30" border="0" alt="link-github"></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100001537383693"><img src="media/icons8-facebook-50.png" width="30" height="30" border="0" alt="link-github"></a></li>
+        </ul>
+        <p>© 2023 By Mikhail Nazarov.</p>
     </footer>
   </body>
 </html>
