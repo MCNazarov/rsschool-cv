@@ -45,7 +45,7 @@ nav {
 }
 
 div#first-line-big-foto {
-    background-image: url("media/front.jpeg");
+    background-image: url("/assets/img/front.jpeg");
     background-size: 100% 100%;  
     background-size: cover; 
     opacity: 0.9;   
