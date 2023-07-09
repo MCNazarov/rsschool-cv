@@ -6,42 +6,43 @@
     <link rel="stylesheet" href="style.css">
   </head>
    <nav>
-    <ul>
-        <li><a href="#my-background">BRIEIFLY ABOUT MYSELF</a></li>
-        <li><a href="#hard-skills">HARD SKILLS</a></li>
-        <li><a href="#soft-skills">SOFT SKILLS </a></li>
-        <li><a href="#code-example">CODE EXAMPLE</a></li>
-        <li><a href="#work-experience">EXPERIENCE</a></li>
-        <li><a href="#education">EDUCATION</a></li> 
-        <li><a href="#my-projects">PROJECTS</a></li> 
-        <li><a href="#languages">LANGUAGES</a></li> 
+    <ul class="menu"> |
+        <li><a href="#my-background">BRIEIFLY ABOUT MYSELF</a></li> |
+        <li><a href="#hard-skills">HARD SKILLS</a></li> |
+        <li><a href="#soft-skills">SOFT SKILLS </a></li> |
+        <li><a href="#code-example">CODE EXAMPLE</a></li> |
+        <li><a href="#work-experience">EXPERIENCE</a></li> |
+        <li><a href="#education">EDUCATION</a></li> |
+        <li><a href="#my-projects">PROJECTS</a></li> |
+        <li><a href="#languages">LANGUAGES</a></li> |
     </ul>
   </nav>
-  <body>    
-    <section class="first-line">
-        <header>
-            <p>HELLO, I'M</p>
-            <a class="logo" href="#"><h1>Mikhail Nazarov</h1></a>
-            <p>Cybersecurity project manager & security engineer</p>
-        </header>
-    </section>
-    <section class="first-line">
-        <img src="/media/PL.jpeg" alt="Buzz Lightyear" />
-        <h2>Mikhail Nazarov</h2>
-        <h3>Security engineer</h3>
-        <h3>Cyber security developer</h3>
-        <h3>Cybersecurity project manager</h3>
-        <ul>
-            <li>mnazarov.it@gmail.com</li>
-            <li>+(996) 776 210 986</li>
-        </ul>
+  <body>
+  <div class="div-body"> 
+    <div class="div-first-line">    
+        <div class="first-line" id="first-line-big-foto">
+            <header>
+                <p><h1>Mikhail Nazarov</h1></p>
+            </header>
+        </div>
+        <div class="first-line" id="first-line-little-foto">
+            <img class="buzz" src="/media/PL.jpeg" alt="Buzz Lightyear">
+            <h2>Mikhail Nazarov</h2>
+            <p>Security engineer</p>
+            <p>Cyber security developer</p>
+            <p>Cybersecurity project manager</p>
+            <ul class="ul-buzz">
+                <li>mnazarov.it@gmail.com</li>
+                <li>+(996) 776 210 986</li>
+            </ul>
         
-        <ul>
-            <li><a href="https://github.com/MCNazarov?tab=following"><img src="media/iconmonstr-github-3.svg" width="30" height="30" border="0" alt="link-github"></a></li>
-            <li><a href="https://www.linkedin.com/in/nazarov-mc/"><img src="media/icons8-linkedin-50.png" width="30" height="30" border="0" alt="link-github"></a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=100001537383693"><img src="media/icons8-facebook-50.png" width="30" height="30" border="0" alt="link-github"></a></li>
-        </ul>
-     </section>
+            <ul class="icon">
+                <li><a href="https://github.com/MCNazarov?tab=following"><img src="media/icon8-github.png" alt="link-github"></a></li>
+                <li><a href="https://www.linkedin.com/in/nazarov-mc/"><img src="media/icons8-linkedin-50.png" alt="link-linkedin"></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100001537383693"><img src="media/icons8-facebook-50.png" alt="link-facebook"></a></li>
+            </ul>
+        </div>
+    </div>
     <section class="second-line">
         <p><a name="my-background"></a></p>
         <h2>About</h2>
@@ -50,37 +51,39 @@
         I have worked within the manufacturing, software systems and automated systems protection information more 5 years.
         target - new knowledge. I like to create digital systems.  I want to become a full-stack developer.</p>
     </section>
-    <section class="third-line">
-        <p><a name="hard-skills"></a></p>
-        <h2>HARD SKILLS</h2>
-        <ul>
-            <li>Linux, Windows, Astra Linux(SE), Ubuntu;</li>
-            <li>Network Security, Protection of information, (SIEM, DLP, IRP), CISCO;</li>
-            <li>VPN, HTTP/HTTPS, SSH, ALD, PKI, NFS/Samba;</li>
-            <li>Docker, yandex.cloud;</li>
-            <li>VirtualBox, hyper-v , QEMU/KVM, PROXMOX;</li>
-            <li>ELK;</li>
-            <li>Redmine, Gitlab;</li>
-            <li>BPMN, RESTAPI.</li>
-        </ul>
-    </section>
-    <section class="fourth-line">
-        <p><a name="soft-skills"></a></p>
-        <h2>SOFT SKILLS</h2>
-        <ul>
-            <li>Enquiry and research skills;</li>
-            <li>Teamwork;</li>
-            <li>Leadership;</li>
-            <li>Communication skills;</li>
-            <li>Problem solving ability;</li>
-            <li>Initiative;</li>
-            <li>Can summarize key issues;</li>
-            <li>Logical argument.</li>
-        </ul>
-    </section>
+    <div class="skills">
+        <section class="third-line">
+            <p><a name="hard-skills"></a></p>
+            <h2>HARD SKILLS</h2>
+            <ul>
+                <li>Linux, Windows, Astra Linux(SE), Ubuntu;</li>
+                <li>Network Security, Protection of information, (SIEM, DLP, IRP), CISCO;</li>
+                <li>VPN, HTTP/HTTPS, SSH, ALD, PKI, NFS/Samba;</li>
+                <li>Docker, yandex.cloud;</li>
+                <li>VirtualBox, hyper-v , QEMU/KVM, PROXMOX;</li>
+                <li>ELK;</li>
+                <li>Redmine, Gitlab;</li>
+                <li>BPMN, RESTAPI.</li>
+            </ul>
+        </section>
+        <section class="fourth-line">
+            <p><a name="soft-skills"></a></p>
+            <h2>SOFT SKILLS</h2>
+            <ul>
+                <li>Enquiry and research skills;</li>
+                <li>Teamwork;</li>
+                <li>Leadership;</li>
+                <li>Communication skills;</li>
+                <li>Problem solving ability;</li>
+                <li>Initiative;</li>
+                <li>Can summarize key issues;</li>
+                <li>Logical argument.</li>
+            </ul>
+        </section>
+    </div>
     <section class="fifth-line">
         <p><a name="code-example"></a></p>
-        <h1>CODE EXAMPLE</h1>
+        <h2>CODE EXAMPLE</h2>
         <pre>
             <code>
                 function multiply(a, b){
@@ -182,12 +185,12 @@
             </tbody>
         </table>
     </section>
-    <section>
+    <section class="my-projects">
         <p><a name="my-projects"></a></p>
         <h2>PROGECTS</h2>
         <p><a href="https://mcnazarov.github.io/cssBayan/cssBayan/index.html">CSS Bayan</a></p>
     </section>
-    <section>
+    <section class="languages">
         <p><a name="languages"></a></p>
         <h2>LANGUAGES</h2>
         <ul>
@@ -196,13 +199,14 @@
         </ul>
     </section>
     <footer>
-        <ul>
+        <ul class="icon">
             <li><a href="https://rs.school/js"><img src="media/rs_school_js.svg" height="20" alt="logo-rs_school."></a></li>
-            <li><a href="https://github.com/MCNazarov?tab=following"><img src="media/iconmonstr-github-3.svg" width="30" height="30" border="0" alt="link-github"></a></li>
-            <li><a href="https://www.linkedin.com/in/nazarov-mc/"><img src="media/icons8-linkedin-50.png" width="30" height="30" border="0" alt="link-github"></a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=100001537383693"><img src="media/icons8-facebook-50.png" width="30" height="30" border="0" alt="link-github"></a></li>
+            <li><a href="https://github.com/MCNazarov?tab=following"><img src="media/icon8-github.png" alt="link-github"></a></li>
+            <li><a href="https://www.linkedin.com/in/nazarov-mc/"><img src="media/icons8-linkedin-50.png" alt="link-linkedin"></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100001537383693"><img src="media/icons8-facebook-50.png" alt="link-facebook"></a></li>
+            <li>© 2023 By Mikhail Nazarov.</li>
         </ul>
-        <p>© 2023 By Mikhail Nazarov.</p>
     </footer>
+  </div>  
   </body>
 </html>
